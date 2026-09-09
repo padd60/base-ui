@@ -62,6 +62,8 @@ minimumReleaseAge: 4320
 minimumReleaseAgeExclude:
   - '@base-ui/*'
   - '@mui/internal-*'
+  # Renovate security update: vitest@4.1.11
+  - vitest@4.1.11
 trustPolicy: no-downgrade
 # Skip trust-policy checks for packages published more than 365 days ago.
 # Several widely-used legacy packages in the current dependency tree have releases that dropped
